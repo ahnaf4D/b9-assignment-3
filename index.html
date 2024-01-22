@@ -19,6 +19,8 @@
     <!-- Frameworks -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font awesome cdn -->
+    <script src="https://kit.fontawesome.com/0fbd660fa4.js" crossorigin="anonymous"></script>
 </head>
 
 <body class="font-manrope">
@@ -35,37 +37,27 @@
                             </svg>
                         </div>
                         <ul tabindex="0"
-                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                            <li><a>Item 1</a></li>
-                            <li>
-                                <a>Parent</a>
-                                <ul class="p-2">
-                                    <li><a>Submenu 1</a></li>
-                                    <li><a>Submenu 2</a></li>
-                                </ul>
-                            </li>
-                            <li><a>Item 3</a></li>
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 text-base text-[#424247] font-normal	">
+                            <li><a>Home</a></li>
+                            <li><a>About</a></li>
+                            <li><a>Pages</a></li>
+                            <li><a>Contact</a></li>
+                            <li><a><i class="fa-solid fa-magnifying-glass"></i></a></li>
                         </ul>
                     </div>
-                    <a class="text-[#131318] text-4xl font">Hockey’s</a>
+                    <a class="text-[#131318]  font-extrabold text-2xl lg:text-4xl">Hockey’s</a>
                 </div>
-                <div class="navbar-center hidden lg:flex">
-                    <ul class="menu menu-horizontal px-1">
-                        <li><a>Item 1</a></li>
-                        <li>
-                            <details>
-                                <summary>Parent</summary>
-                                <ul class="p-2">
-                                    <li><a>Submenu 1</a></li>
-                                    <li><a>Submenu 2</a></li>
-                                </ul>
-                            </details>
-                        </li>
-                        <li><a>Item 3</a></li>
+                <div class="navbar-center hidden lg:flex gap-10">
+                    <ul class="menu menu-horizontal px-1 text-base text-[#424247] font-normal	">
+                        <li><a>Home</a></li>
+                        <li><a>About</a></li>
+                        <li><a>Pages</a></li>
+                        <li><a>Contact</a></li>
                     </ul>
                 </div>
                 <div class="navbar-end">
-                    <a class="btn">Button</a>
+                    <a class="hidden lg:inline"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="btn bg-[#FF4240] text-white">Get Ticket</a>
                 </div>
             </div>
         </nav>
