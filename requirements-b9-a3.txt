@@ -1,0 +1,34 @@
+We can use any CSS Framework(TailwindCSS , Bootstrap , Material, DaisyUI)
+Not write custom css use Framework.
+Must be make a website responsive for sm , lg in tailwindCSS
+Main Marks requirements
+============
+Mobile Responsive
+Desktop Responsive
+Slider 
+Professionals Hockeys Club section
+Skip dummy text include meaningfull text
+Program Section
+products Section
+Get in Touch Section
+Socia Media Section
+Footer section
+
+-------------
+Bonus Marks 
+===========
+Not use dummy text
+Bad color selection
+3 meaningfull git commit
+Add Badge to slider
+Clients Quetions section
+Navbar and must be responsive
+--------------
+Optional Marks requirements
+=============
+tablet responsive
+=========
+Assignment Submit
+------
+Github Repo Link(Source Code)
+Live Link of website 
