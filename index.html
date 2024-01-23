@@ -22,8 +22,6 @@
     <!-- Frameworks -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css" rel="stylesheet" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
 
 </head>
 
@@ -67,124 +65,52 @@
             </div>
         </nav>
         <!-- Banner area -->
-        <div class="mx-auto container">
-
-
-            <div id="controls-carousel" class="relative w-full" data-carousel="static">
-                <!-- Carousel wrapper -->
-                <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
-                    <!-- Item 1 -->
-                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
-
-                        <img src="/images/1.png"
-                            class=" relative block w-full h-[550px]  -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                            alt="...">
-                        <div class="absolute">
-                            <h2>Hello World</h2>
+        <div class="mx-auto w-full h-full lg:w-[1170px] h-[550px] ">
+            <div class="carousel">
+                <div id="slide1" class="carousel-item relative w-full">
+                    <img src="images/1.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide2" class="btn btn-circle">❮</a>
+                        <a href="#slide2" class="btn btn-circle">❯</a>
+                        <div
+                            class="bg-[#131318] rounded-2xl relative p-8 lg:absolute w-[556px] h-[165px] left-[550px] top-[190px] ">
+                            <h3 class="font-extrabold text-white text-2xl mb-4">Meet all the heroes from the field</h3>
+                            <p class="text-white/50 text-base font-medium	">These is world famouse
+                                Hockey Tournament for
+                                only
+                                Hocky
+                                Lover dummy
+                                people. All previous
+                                wanna to play with you.
+                            </p>
                         </div>
                     </div>
-                    <!-- Item 2 -->
-                    <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
-                        <img src="images/2.png"
-                            class="relative block w-full h-[550px] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                            alt="...">
+                </div>
+                <div id="slide2" class="carousel-item relative w-full">
+                    <img src="images/2.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide1" class="btn btn-circle">❮</a>
+                        <a href="#slide1" class="btn btn-circle">❯</a>
+                        <div
+                            class="bg-[#131318] rounded-2xl relative p-8 lg:absolute w-[556px] h-[165px] left-[550px] top-[190px] ">
+                            <h3 class="font-extrabold text-white text-2xl mb-4">Meet all the heroes from the field</h3>
+                            <p class="text-white/50 text-base font-medium	">These is world famouse
+                                Hockey Tournament for
+                                only
+                                Hocky
+                                Lover dummy
+                                people. All previous
+                                wanna to play with you.
+                            </p>
+                        </div>
                     </div>
                 </div>
-                <!-- Slider controls -->
-                <button type="button"
-                    class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
-                    data-carousel-prev>
-                    <span
-                        class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-                        <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M5 1 1 5l4 4" />
-                        </svg>
-                        <span class="sr-only">Previous</span>
-                    </span>
-                </button>
-                <button type="button"
-                    class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
-                    data-carousel-next>
-                    <span
-                        class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-                        <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="m1 9 4-4-4-4" />
-                        </svg>
-                        <span class="sr-only">Next</span>
-                    </span>
-                </button>
-            </div>
 
+            </div>
+        </div>
         </div>
     </header>
     <main>
-        <!-- Professionals Hockeys Club -->
-        <div class="border-t-2 border-b-2 border-dashed mt-10 mx-w-[375px] lg:mt-20 max-w-[1250px] mx-auto">
-            <h1 class="text-[#131318] text-center font-extrabold text-xl pt-6 lg:pt-8 text-4xl ">Professional Hockeys
-                Club
-            </h1>
-            <p
-                class="text-center pt-6 pb-5 font-medium	text-[#13131899] leading-7 text-sm mx-w-[292px]	lg:text-base mx-w-[607px]">
-                At
-                the heart of
-                the
-                Professional
-                Hockey Club
-                beats a legacy of
-                resilience
-                and
-                sportsmanship. Join us on the ice as we redefine the game with skill, strategy, and unwavering
-                determination.
-            </p>
-        </div>
-        <!-- Radial Progress -->
-        <div class="flex flex-col items-center justify-evenly mt-12 lg:flex-row">
-            <div class="mb-6 flex flex-col justify-center items-center">
-                <div class="radial-progress text-[#FF4240]" style="--value:87;" role="progressbar"><span
-                        class="text-2xl font-extrabold text-[#131318]">87%</span>
-                </div>
-                <div class="text-center">
-                    <h3 class="mt-6 mb-2 text-[#131318] text-xl	font-extrabold">Prayer Facility</h3>
-                    <p class="mt-6 mb-2 font-normal	text-base text-[#13131899] w-[250px]">Sacred space for prayer,
-                        reflection, tranquility. Welcoming facility fosters spiritual connection and serenity.</p>
-                </div>
-            </div>
-            <div class="mb-6 flex flex-col justify-center items-center">
-                <div class="radial-progress text-[#49D293]" style="--value:95;" role="progressbar"><span
-                        class="text-2xl font-extrabold text-[#131318]">95%</span>
-                </div>
-                <div class="text-center">
-                    <h3 class="mt-6 mb-2 text-xl	font-extrabold">Experienced Coach</h3>
-                    <p class="mt-6 mb-2 font-normal	text-base text-[#13131899] w-[250px]">Sacred space for prayer,
-                        reflection, tranquility. Welcoming facility fosters spiritual connection and serenity.</p>
-                </div>
-            </div>
-            <div class="mb-6 flex flex-col justify-center items-center">
-                <div class="radial-progress text-[#FFB546]" style="--value:90;" role="progressbar"><span
-                        class="text-2xl font-extrabold text-[#131318]">90%</span>
-                </div>
-                <div class="text-center">
-                    <h3 class="mt-6 mb-2 text-xl font-extrabold">Senior Player</h3>
-                    <p class="mt-6 mb-2 font-normal	text-base text-[#13131899] w-[250px]">Sacred space for prayer,
-                        reflection, tranquility. Welcoming facility fosters spiritual connection and serenity.</p>
-                </div>
-            </div>
-            <div class="mb-6 flex flex-col justify-center items-center">
-                <div class="radial-progress text-[#4C8DF1]" style="--value:80;" role="progressbar"><span
-                        class="text-2xl font-extrabold text-[#131318]">80%</span>
-                </div>
-                <div class="text-center">
-                    <h3 class="mt-6 mb-2 text-xl	font-extrabold">Training Ground</h3>
-                    <p class="mt-6 mb-2 font-normal	text-base text-[#13131899] w-[250px]"> Sacred space for prayer,
-                        reflection, tranquility. Welcoming facility fosters spiritual connection and serenity.</p>
-                </div>
-            </div>
-        </div>
-        <i class="fa-solid fa-house"></i>
     </main>
     <footer></footer>
 </body>
